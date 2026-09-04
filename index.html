@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Faizan Ali - B2B Sales Representative</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&amp;family=Merriweather:wght@700;900&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "outline-variant": "#c9c4d2",
+                "surface-bright": "#fcf9f2",
+                "on-error-container": "#93000a",
+                "inverse-surface": "#31312c",
+                "on-surface": "#1c1c18",
+                "on-primary-fixed": "#1a045e",
+                "secondary": "#94455c",
+                "surface-dim": "#dcdad3",
+                "surface-container": "#f0eee7",
+                "on-surface-variant": "#484551",
+                "on-primary": "#ffffff",
+                "tertiary-container": "#7a498a",
+                "on-tertiary-fixed": "#320243",
+                "on-secondary-container": "#7a3047",
+                "surface-tint": "#5f53a4",
+                "surface": "#fcf9f2",
+                "surface-container-low": "#f6f3ec",
+                "inverse-primary": "#c9bfff",
+                "tertiary-fixed": "#fad7ff",
+                "primary-fixed": "#e5deff",
+                "inverse-on-surface": "#f3f0ea",
+                "secondary-fixed-dim": "#ffb1c4",
+                "background": "#fcf9f2",
+                "on-secondary": "#ffffff",
+                "secondary-container": "#fe9cb6",
+                "primary-container": "#5d51a2",
+                "on-secondary-fixed": "#3e011a",
+                "on-primary-fixed-variant": "#473a8a",
+                "surface-container-high": "#ebe8e1",
+                "on-tertiary-fixed-variant": "#633372",
+                "primary-fixed-dim": "#c9bfff",
+                "surface-container-lowest": "#ffffff",
+                "primary": "#453988",
+                "on-tertiary": "#ffffff",
+                "tertiary": "#603170",
+                "secondary-fixed": "#ffd9e0",
+                "on-error": "#ffffff",
+                "error-container": "#ffdad6",
+                "surface-variant": "#e5e2db",
+                "on-background": "#1c1c18",
+                "tertiary-fixed-dim": "#ecb2fb",
+                "on-tertiary-container": "#f5c5ff",
+                "on-secondary-fixed-variant": "#772d45",
+                "on-primary-container": "#d8d0ff",
+                "outline": "#797582",
+                "surface-container-highest": "#e5e2db",
+                "error": "#ba1a1a"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "base": "4px",
+                "margin-mobile": "16px",
+                "container-max": "1200px",
+                "margin-desktop": "64px",
+                "gutter": "24px"
+        },
+        "fontFamily": {
+                "display-lg-mobile": [
+                        "Merriweather"
+                ],
+                "headline-md": [
+                        "Merriweather"
+                ],
+                "body-lg": [
+                        "Work Sans"
+                ],
+                "display-lg": [
+                        "Merriweather"
+                ],
+                "body-md": [
+                        "Work Sans"
+                ],
+                "label-caps": [
+                        "Work Sans"
+                ],
+                "headline-sm": [
+                        "Merriweather"
+                ]
+        },
+        "fontSize": {
+                "display-lg-mobile": [
+                        "32px",
+                        {
+                                "lineHeight": "1.2",
+                                "letterSpacing": "-0.03em",
+                                "fontWeight": "900"
+                        }
+                ],
+                "headline-md": [
+                        "32px",
+                        {
+                                "lineHeight": "1.2",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "1.6",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "display-lg": [
+                        "48px",
+                        {
+                                "lineHeight": "1.1",
+                                "letterSpacing": "-0.04em",
+                                "fontWeight": "900"
+                        }
+                ],
+                "body-md": [
+                        "16px",
+                        {
+                                "lineHeight": "1.5",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "label-caps": [
+                        "12px",
+                        {
+                                "lineHeight": "1",
+                                "letterSpacing": "0.1em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "headline-sm": [
+                        "24px",
+                        {
+                                "lineHeight": "1.3",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "700"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+        .custom-shadow-card {
+            box-shadow: 0 12px 32px rgba(93, 81, 162, 0.15);
+        }
+        .custom-shadow-card-hover:hover {
+            box-shadow: 0 20px 48px rgba(93, 81, 162, 0.25);
+            transform: translateY(-4px);
+        }
+        .brand-gradient {
+            background: linear-gradient(135deg, #fe9cb6 0%, #d8d0ff 50%, #c9bfff 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #453988, #94455c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+        }
+        .automation-shadow {
+            box-shadow: 0 4px 20px rgba(89,64,138,0.08);
+        }
+        .badge-gradient {
+            background: linear-gradient(to right, #2C3AA0, #7B5FC7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+      </style>
+</head>
+<body class="bg-[#faf7f0] text-on-background font-body-md antialiased overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-sm border-b border-outline-variant/30">
+<div class="max-w-container-max mx-auto px-gutter flex justify-between items-center h-20">
+<a class="font-display-lg text-2xl font-bold text-primary tracking-tight" href="#">FA.</a>
+<div class="hidden md:flex gap-8 items-center font-label-caps text-label-caps uppercase tracking-widest"><a class="text-primary font-bold border-b-2 border-primary pb-1 active:scale-95 transition-transform duration-150" href="#sales">SALES CRAFT</a><a class="text-on-surface-variant hover:text-primary transition-colors duration-200 active:scale-95" href="#automation">AUTOMATION</a><a class="text-on-surface-variant hover:text-primary transition-colors duration-200 active:scale-95" href="#campaigns">CAMPAIGNS</a><a class="text-on-surface-variant hover:text-primary transition-colors duration-200 active:scale-95" href="#systems">SYSTEMS</a><a class="text-on-surface-variant hover:text-primary transition-colors duration-200 active:scale-95" href="#tech-stack">TECH STACK</a></div>
+<a class="hidden md:inline-flex items-center justify-center bg-primary text-on-primary font-label-caps text-label-caps py-3 px-8 rounded-full hover:bg-primary-container transition-colors active:scale-95 duration-150 uppercase tracking-widest" href="https://calendly.com/sfaizan997/15mins" target="_blank">Book Call</a>
+<button class="md:hidden text-primary p-2 focus:outline-none">
+<span class="material-symbols-outlined" style='font-variation-settings: "FILL" 0;'>menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- HERO Section -->
+<section class="relative pt-12 pb-24 md:pt-24 md:pb-32 overflow-hidden bg-surface-bright">
+<div class="absolute top-0 right-0 w-2/3 h-full brand-gradient opacity-20 blur-3xl -z-10 rounded-bl-[100%]"></div>
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7 space-y-8 z-10">
+<div class="inline-flex items-center gap-2 bg-primary-fixed border border-primary-fixed-dim rounded-full py-2 px-5">
+<div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">let's close some more!</span>
+</div>
+<h1 class="font-display-lg-mobile text-[48px] leading-[1.1] md:font-display-lg md:text-[72px] text-on-background">
+                        Outbound <span class="text-primary italic">B2B Sales</span> Representative
+                    </h1>
+<p class="font-body-lg text-[20px] text-on-surface-variant max-w-xl leading-relaxed">
+                        I build scalable outreach systems, handle objections with empathy, and close enterprise deals using the NEPQ framework. Let's turn your pipeline into revenue.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<a class="inline-flex items-center justify-center bg-primary text-white font-label-caps text-label-caps py-5 px-10 rounded-full hover:bg-primary-container transition-colors shadow-lg uppercase tracking-widest" href="https://calendly.com/sfaizan997/15mins" target="_blank">
+                            Book a Discovery Call
+                        </a>
+<a class="inline-flex items-center justify-center border-2 border-primary text-primary font-label-caps text-label-caps py-5 px-10 rounded-full hover:bg-primary-fixed transition-colors uppercase tracking-widest bg-white" href="#sales">
+                            See How I Work
+                        </a>
+</div>
+</div>
+<div class="md:col-span-5 relative z-10">
+<div class="relative w-full aspect-square max-w-md mx-auto">
+<div class="absolute inset-0 brand-gradient rounded-3xl transform rotate-6 scale-105 opacity-50"></div>
+<div class="relative z-10 w-full h-full bg-primary-container rounded-3xl shadow-2xl border-4 border-white flex items-center justify-center group cursor-pointer overflow-hidden">
+<video class="w-full h-full object-cover" controls playsinline>
+<source src="My%20Portfolio%20Video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PROOF STRIP -->
+<section class="bg-surface-container-low py-24 relative" id="proof">
+<div class="max-w-container-max mx-auto px-gutter relative z-10">
+<div class="mb-10 text-center">
+<h2 class="font-display-lg-mobile md:font-display-lg text-center text-primary">The numbers, straight up</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="bg-white rounded-2xl p-8 text-center border border-outline-variant/30 custom-shadow-card custom-shadow-card-hover transition-all duration-300">
+<span class="inline-block px-4 py-1.5 rounded-full text-[10px] font-bold bg-primary/10 text-primary uppercase tracking-widest mb-6">Consistent</span>
+<div class="font-display-lg-mobile md:text-[56px] font-black text-primary mb-2 leading-none">20–25%</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest font-bold">Close Rate</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white rounded-2xl p-8 text-center border border-outline-variant/30 custom-shadow-card custom-shadow-card-hover transition-all duration-300">
+<span class="inline-block px-4 py-1.5 rounded-full text-[10px] font-bold bg-secondary/10 text-secondary uppercase tracking-widest mb-6">B2B Outbound</span>
+<div class="font-display-lg-mobile md:text-[56px] font-black text-secondary mb-2 leading-none">10+</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest font-bold">Campaigns Run</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-2xl p-8 text-center border border-outline-variant/30 custom-shadow-card custom-shadow-card-hover transition-all duration-300">
+<span class="inline-block px-4 py-1.5 rounded-full text-[10px] font-bold bg-primary/10 text-primary uppercase tracking-widest mb-6">Qualified</span>
+<div class="font-display-lg-mobile md:text-[56px] font-black text-primary mb-2 leading-none">12–15</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest font-bold">Appts / Week</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-white rounded-2xl p-8 text-center border border-outline-variant/30 custom-shadow-card custom-shadow-card-hover transition-all duration-300">
+<span class="inline-block px-4 py-1.5 rounded-full text-[10px] font-bold bg-secondary/10 text-secondary uppercase tracking-widest mb-6">Automation</span>
+<div class="font-display-lg-mobile md:text-[56px] font-black text-secondary mb-2 leading-none">+40%</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest font-bold">Call Volume</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SALES CRAFT Section -->
+<section class="max-w-container-max mx-auto px-gutter py-24 md:py-32" id="sales">
+<div class="mb-16 text-center max-w-3xl mx-auto">
+<h2 class="font-display-lg-mobile md:text-[64px] leading-tight text-on-background mb-6">Mastering the <span class="text-primary italic">Sales Cycle</span></h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Not theory. Real calls, real frameworks, real outcomes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+<!-- Card 01 -->
+<div class="bg-surface-bright rounded-[12px] p-8 md:p-10 automation-shadow transition-all duration-300 border-2 border-primary-fixed relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-fixed rounded-bl-full -z-10 opacity-50 group-hover:scale-110 transition-transform"></div>
+<div class="flex justify-between items-start mb-8">
+<h3 class="font-headline-md text-[36px] text-primary">Openers</h3>
+<span class="font-label-caps text-label-caps text-primary/40 text-2xl">01</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-10">Breaking preoccupations with pattern interrupts. Moving from "who is this" to active listening within the first 15 seconds.</p>
+<div class="bg-white rounded-[12px] p-6 border border-outline-variant/30 shadow-sm relative">
+<div class="absolute -top-3 left-6 bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">play_circle</span> Voice Proof
+                        </div>
+<div class="flex items-center gap-4 mt-2">
+<button class="w-12 h-12 rounded-full bg-primary flex flex-shrink-0 items-center justify-center text-white hover:bg-primary-container transition-colors shadow-md">
+<span class="material-symbols-outlined text-[24px]" style='font-variation-settings: "FILL" 1;'>play_arrow</span>
+</button>
+<div class="flex-grow">
+<div class="h-2 bg-surface-variant rounded-full overflow-hidden mb-2">
+<div class="h-full bg-primary w-1/3"></div>
+</div>
+<div class="flex justify-between text-xs text-outline font-medium">
+<span class="">0:00</span>
+<span class="">0:15</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 02 -->
+<div class="bg-surface-bright rounded-[12px] p-8 md:p-10 automation-shadow transition-all duration-300 border-2 border-secondary-fixed relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-fixed rounded-bl-full -z-10 opacity-50 group-hover:scale-110 transition-transform"></div>
+<div class="flex justify-between items-start mb-8">
+<h3 class="font-headline-md text-[36px] text-secondary">Objection Handling</h3>
+<span class="font-label-caps text-label-caps text-secondary/40 text-2xl">02</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-10">Utilizing the Acknowledge, Isolate, and Redirect framework to turn reflexive "no's" into deeper discovery conversations.</p>
+<div class="bg-white rounded-[12px] p-6 border border-outline-variant/30 shadow-sm relative">
+<div class="absolute -top-3 left-6 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">play_circle</span> Voice Proof
+                        </div>
+<div class="flex items-center gap-4 mt-2">
+<button class="w-12 h-12 rounded-full bg-secondary flex flex-shrink-0 items-center justify-center text-white hover:bg-secondary-container transition-colors shadow-md">
+<span class="material-symbols-outlined text-[24px]" style='font-variation-settings: "FILL" 1;'>play_arrow</span>
+</button>
+<div class="flex-grow">
+<div class="h-2 bg-surface-variant rounded-full overflow-hidden mb-2">
+<div class="h-full bg-secondary w-2/5"></div>
+</div>
+<div class="flex justify-between text-xs text-outline font-medium">
+<span class="">0:14</span>
+<span class="">1:20</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 03 -->
+<div class="bg-surface-bright rounded-[12px] p-8 md:p-10 automation-shadow transition-all duration-300 border-2 border-primary-fixed relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-fixed rounded-bl-full -z-10 opacity-50 group-hover:scale-110 transition-transform"></div>
+<div class="flex justify-between items-start mb-8">
+<h3 class="font-headline-md text-[36px] text-primary">NEPQ Closing</h3>
+<span class="font-label-caps text-label-caps text-primary/40 text-2xl">03</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-10">Pulling prospects through the funnel using neuro-emotional persuasion questions, letting them close themselves.</p>
+<div class="bg-white rounded-[12px] p-6 border border-outline-variant/30 shadow-sm relative">
+<div class="absolute -top-3 left-6 bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">play_circle</span> Voice Proof
+                        </div>
+<div class="flex items-center gap-4 mt-2">
+<button class="w-12 h-12 rounded-full bg-primary flex flex-shrink-0 items-center justify-center text-white hover:bg-primary-container transition-colors shadow-md">
+<span class="material-symbols-outlined text-[24px]" style='font-variation-settings: "FILL" 1;'>play_arrow</span>
+</button>
+<div class="flex-grow">
+<div class="h-2 bg-surface-variant rounded-full overflow-hidden mb-2">
+<div class="h-full bg-primary w-[80%]"></div>
+</div>
+<div class="flex justify-between text-xs text-outline font-medium">
+<span class="">2:45</span>
+<span class="">3:10</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 04 -->
+<div class="bg-surface-bright rounded-[12px] p-8 md:p-10 automation-shadow transition-all duration-300 border-2 border-secondary-fixed relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-fixed rounded-bl-full -z-10 opacity-50 group-hover:scale-110 transition-transform"></div>
+<div class="flex justify-between items-start mb-8">
+<h3 class="font-headline-md text-[36px] text-secondary">Negotiation</h3>
+<span class="font-label-caps text-label-caps text-secondary/40 text-2xl">04</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-10">Maintaining posture, protecting margins, and demonstrating extreme patience when the deal dynamics shift.</p>
+<div class="bg-white rounded-[12px] p-6 border border-outline-variant/30 shadow-sm relative">
+<div class="absolute -top-3 left-6 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">play_circle</span> Voice Proof
+                        </div>
+<div class="flex items-center gap-4 mt-2">
+<button class="w-12 h-12 rounded-full bg-secondary flex flex-shrink-0 items-center justify-center text-white hover:bg-secondary-container transition-colors shadow-md">
+<span class="material-symbols-outlined text-[24px]" style='font-variation-settings: "FILL" 1;'>play_arrow</span>
+</button>
+<div class="flex-grow">
+<div class="h-2 bg-surface-variant rounded-full overflow-hidden mb-2">
+<div class="h-full bg-secondary w-full"></div>
+</div>
+<div class="flex justify-between text-xs text-outline font-medium">
+<span class="">5:00</span>
+<span class="">5:00</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- AUTOMATION Section -->
+<section class="bg-surface-container-low py-24 md:py-32 relative overflow-hidden" id="automation">
+<div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-tr from-[#E8927C]/10 to-[#C9A0D9]/10 opacity-20 blur-3xl -z-10"></div>
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="mb-16 text-center max-w-3xl mx-auto">
+<h2 class="font-display-lg-mobile md:text-[64px] leading-tight text-primary mb-6">Automation &amp; Pipeline</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Working smarter, not just harder. Leveraging tech stacks to maximize face-time with qualified prospects.</p>
+</div>
+<div class="space-y-24">
+<!-- Project 1: Python Enrichment Pipeline -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="bg-white p-8 md:p-10 rounded-[12px] automation-shadow border border-outline-variant/30">
+<h3 class="font-headline-md text-[32px] md:text-[40px] text-on-background mb-6 flex items-center gap-3"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-4xl badge-gradient">code</span><span class="font-bold text-xl badge-gradient">01</span></div> Python Leads Enrichment Pipeline</h3>
+<p class="font-body-lg text-on-surface-variant text-[20px] leading-relaxed mb-6">
+          Scripts pull, enrich, and push clean data directly to dialing lists. Replacing manual data entry and cross-referencing with high-performance automation.
+        </p>
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center px-3 py-1 rounded-full bg-surface-variant/50 text-on-surface-variant text-sm font-medium border border-outline-variant/20">Python</span>
+<span class="inline-flex items-center px-3 py-1 rounded-full bg-surface-variant/50 text-on-surface-variant text-sm font-medium border border-outline-variant/20">Pandas</span>
+<span class="inline-flex items-center px-3 py-1 rounded-full bg-surface-variant/50 text-on-surface-variant text-sm font-medium border border-outline-variant/20">Selenium</span>
+<span class="inline-flex items-center px-3 py-1 rounded-full bg-surface-variant/50 text-on-surface-variant text-sm font-medium border border-outline-variant/20">Antigravity</span>
+</div>
+</div>
+</div>
+<div class="relative w-full aspect-video">
+<div class="absolute inset-0 bg-gradient-to-br from-[#E8927C] to-[#C9A0D9] rounded-[12px] transform rotate-2 scale-105 opacity-20"></div>
+<img alt="Python Enrichment Pipeline Dashboard" class="relative z-10 w-full h-full object-cover rounded-[12px] shadow-2xl border-4 border-white automation-shadow" src="https://lh3.googleusercontent.com/aida/AEtjO1VhNKSbRNBsTJU2iTgaYtAdME3drZBcQDjKh9oss0iFn7I6y8KD0cgyNGz6MuNHfAaSRMIE0f_T9JinqY-W1mCkYP2Y4pJXILVL4qCmxRCZP1cGr1ukLSZO9-FOSTD4FQ_ExXGfFtDgyEn2LJAdQYgKsSdqls-xYnTHj6bHFCLMidwJcvrCRquFdfCAMeaLqwxKfvK5JnSBYTeLlWyw9El9F6Nfi2FHWKaXv1xPGt_bBQ57p9ECEbndxU8S"/>
+</div>
+</div>
+<!-- Project 2: Chrome Extension + Auto-Dialer -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="relative w-full aspect-video order-2 lg:order-1">
+<div class="absolute inset-0 bg-gradient-to-br from-[#C9A0D9] to-[#E8927C] rounded-[12px] transform -rotate-2 scale-105 opacity-20"></div>
+<img alt="Chrome Extension and Auto-Dialer Interface" class="relative z-10 w-full h-full object-cover rounded-[12px] shadow-2xl border-4 border-white automation-shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSZbO2PxvAgC9C3sGiSChDLrGj1j7RXmFhUXd539uKBRzBcCS26Biw57WOFKKeXvduQgEGaCoakteAsj_JuWn7jMXANjXO9XPozRXePAoy83J5pgZ-6IftMUYtxLLkpBh8zEsXgFxuhiVKVAFVR6iVmDljeDi5QziVZJESHTaABxwwEyMEMlPjnjwYr_F_9Xmh43ttIi1LlMkPCYWoDlE7wj8G2FB51tIXEX4E555v9d55xxhdn9gcog"/>
+</div>
+<div class="space-y-6 order-1 lg:order-2">
+<div class="bg-white p-8 md:p-10 rounded-[12px] automation-shadow border border-outline-variant/30">
+<h3 class="font-headline-md text-[32px] md:text-[40px] text-on-background mb-6 flex items-center gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-4xl badge-gradient">web</span>
+<span class="font-bold text-xl badge-gradient">02</span>
+</div>
+          Chrome Extension + Auto-Dialer
+        </h3>
+<p class="font-body-lg text-on-surface-variant text-[20px] leading-relaxed">
+          Custom tools that eliminate dial-and-wait times, resulting in a documented 42% increase in connection rates and seamless CRM integration.
+        </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section class="py-24 md:py-32 bg-surface-bright" id="campaigns"><div class="max-w-container-max mx-auto px-gutter"><div class="mb-16 text-center max-w-3xl mx-auto"><span class="font-label-caps text-label-caps text-primary uppercase tracking-widest mb-4 inline-block">INDUSTRIES &amp; VERTICALS</span><h2 class="font-display-lg-mobile md:text-[64px] leading-tight text-on-background mb-6 font-bold">Successful Campaigns</h2><p class="font-body-lg text-body-lg text-on-surface-variant">Outbound campaigns run across multiple verticals — each with a distinct ICP, pitch, and pipeline.</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"><div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex flex-col h-full transition-all duration-300 hover:-translate-y-1"><div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary"><span class="material-symbols-outlined">search</span></div><h3 class="font-headline-sm text-primary mb-4">B2B SEO Clients Outreach</h3><p class="font-body-md text-on-surface-variant mb-6 flex-grow">Cold outreach campaign targeting marketing agencies and SMBs looking to scale their organic growth. Identified decision-makers, personalized pitches around ROI gaps, and booked discovery calls.</p><div class="mb-6"><span class="text-primary font-bold text-sm">Result: +10% New Client Acquisition</span></div><div class="flex flex-wrap gap-2"><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">B2B SaaS</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Agency Clients</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Cold Calling</span></div></div><div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex flex-col h-full transition-all duration-300 hover:-translate-y-1"><div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary"><span class="material-symbols-outlined">home</span></div><h3 class="font-headline-sm text-primary mb-4">Real Estate VA Acquisition</h3><p class="font-body-md text-on-surface-variant mb-6 flex-grow">Outbound campaign targeting real estate brokerages and property managers across the US to place virtual assistants. High-volume cold calling with NEPQ-based qualification.</p><div class="mb-6"><span class="text-primary font-bold text-sm">Result: 12-15 Appts / Week</span></div><div class="flex flex-wrap gap-2"><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Real Estate</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">VA Placement</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">US Market</span></div></div><div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex flex-col h-full transition-all duration-300 hover:-translate-y-1"><div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary"><span class="material-symbols-outlined">group</span></div><h3 class="font-headline-sm text-primary mb-4">Remote Talent Acquisition for Agencies</h3><p class="font-body-md text-on-surface-variant mb-6 flex-grow">End-to-end outreach to digital agencies needing scalable remote SDR and support talent. Handled both the outbound prospecting and the closing conversations.</p><div class="mb-6"><span class="text-primary font-bold text-sm">Result: 20-25% Close Rate</span></div><div class="flex flex-wrap gap-2"><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Agency Staffing</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Remote Talent</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Inbound+Outbound</span></div></div><div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex flex-col h-full transition-all duration-300 hover:-translate-y-1"><div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary"><span class="material-symbols-outlined">movie</span></div><h3 class="font-headline-sm text-primary mb-4">3D Video Production Sales</h3><p class="font-body-md text-on-surface-variant mb-6 flex-grow">Prospected creative directors and marketing leads at product brands to sell premium 3D animation and video production services. High-ticket, consultative sale with longer cycles.</p><div class="mb-6"><span class="text-primary font-bold text-sm">Result: High-Ticket Closing</span></div><div class="flex flex-wrap gap-2"><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Creative Services</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Video Production</span><span class="bg-surface-variant/50 text-on-surface-variant text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Consultative Sale</span></div></div><div class="bg-surface-container-low border-2 border-dashed border-outline-variant/30 p-8 rounded-2xl flex flex-col items-center justify-center text-center h-full"><span class="material-symbols-outlined text-primary/40 text-4xl mb-4">add_circle</span><h3 class="font-headline-sm text-on-surface-variant mb-2">+ More Campaigns</h3><p class="font-body-md text-on-surface-variant/70">E-commerce, SaaS, Coaching, Recruitment and others</p></div></div></div></section><section class="max-w-container-max mx-auto px-gutter mb-24"><div class="bg-gradient-to-r from-[#e6d8ff] to-[#f3eeff] p-8 md:p-10 rounded-2xl flex flex-col md:flex-row justify-between items-center gap-8 border border-primary/10"><div class="space-y-2"><h4 class="font-headline-sm text-primary font-bold">Worked with a similar vertical?</h4><p class="font-body-md text-on-surface-variant">Book 15 minutes and let's map out a campaign together.</p></div><a class="inline-flex items-center gap-2 bg-primary text-white font-label-caps text-label-caps py-4 px-8 rounded-full hover:bg-primary-container transition-all shadow-lg uppercase tracking-widest text-sm whitespace-nowrap" href="https://calendly.com/sfaizan997/30min" target="_blank">📅 Book a Call</a></div></section>
+<!-- TECH STACK Section -->
+<section class="py-24 md:py-32 bg-surface-bright" id="tech-stack">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="mb-16 text-center max-w-3xl mx-auto">
+<h2 class="font-display-lg-mobile md:text-[64px] leading-tight text-on-background mb-6">Outbound Systems &amp; <span class="text-primary italic">Leadership</span></h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex flex-col h-full">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center mb-6 text-primary">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="font-headline-sm text-primary mb-4">Spacemail Automations</h3>
+<p class="font-body-md text-on-surface-variant mb-8 flex-grow">Booking meetings live on a call across time zones is high-friction. I built a custom extension where reps just select the prospect's time zone and time, and it automatically fires off a confirmation email and calendar invitation instantly while still on the phone.</p>
+<div class="inline-flex">
+<span class="bg-primary-fixed text-primary text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Frictionless Booking</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex flex-col h-full">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center mb-6 text-primary">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="font-headline-sm text-primary mb-4">Google Maps Lead Scraper</h3>
+<p class="font-body-md text-on-surface-variant mb-8 flex-grow">Bypassed expensive databases like ZoomInfo. Built a custom Python scraper to extract and verify over 10,000+ local B2B businesses directly from Google Maps.</p>
+<div class="inline-flex">
+<span class="bg-primary-fixed text-primary text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">10,000+ verified targets</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex flex-col h-full">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center mb-6 text-primary">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="font-headline-sm text-primary mb-4">SDR Methodology Playbook</h3>
+<p class="font-body-md text-on-surface-variant mb-8 flex-grow">Codified winning scripts, NEPQ closing frameworks, and objection handling matrices into a comprehensive playbook used to ramp up new sales reps faster and increase floor ROI.</p>
+<div class="inline-flex">
+<span class="bg-primary-fixed text-primary text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Sales Team Leadership</span>
+</div>
+</div>
+</div>
+</div>
+</section><section class="py-16 bg-[#faf7f0]">
+<div class="max-w-container-max mx-auto px-gutter text-center">
+<h3 class="font-headline-md text-2xl text-on-background mb-8">My Tech Stack</h3>
+<div class="flex flex-wrap justify-center gap-6 items-center">
+<span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">Python</span>
+<span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">Selenium</span>
+<span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">Clay</span>
+<span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">Smartlead</span>
+<span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">Apollo.io</span>
+<span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">Salesforce</span>
+<span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">Antigravity</span><span class="text-on-surface-variant font-bold text-lg px-4 py-2 border-b-2 border-primary/20">HubSpot Sales Hub</span></div>
+</div>
+</section>
+<!-- CERTIFICATIONS Section -->
+<section class="py-24 md:py-32 bg-[#faf7f0]">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="mb-16 text-center max-w-3xl mx-auto">
+<h2 class="font-display-lg-mobile md:text-[64px] leading-tight text-on-background mb-6">Certifications</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Card 1 -->
+<div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex items-center gap-6">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center flex-shrink-0 text-primary">
+<svg class="h-8 w-8" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="font-headline-sm text-primary">HubSpot Sales Hub Software Certified</h3>
+</div>
+<!-- Card 2 -->
+<div class="bg-white p-8 rounded-2xl automation-shadow border border-outline-variant/30 flex items-center gap-6">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center flex-shrink-0 text-primary">
+<svg class="h-8 w-8" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="font-headline-sm text-primary">Generative AI for Everyone - DeepLearning AI</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- CLOSING CTA -->
+<section class="w-full brand-gradient py-32 px-gutter relative overflow-hidden" id="contact">
+<div class="max-w-4xl mx-auto text-center relative z-10 glass-panel p-12 md:p-20 rounded-[12px] automation-shadow border-2 border-white">
+<h2 class="font-display-lg-mobile md:text-[72px] leading-tight text-primary mb-6 font-black">Let's talk pipeline.</h2>
+<p class="font-body-lg text-[22px] text-on-surface-variant mb-12 max-w-2xl mx-auto font-medium">Book 15 minutes. No pitch deck, no fluff. Just a conversation about your current sales process and where I might fit in.</p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
+<a class="w-full sm:w-auto inline-flex items-center justify-center bg-primary text-white font-label-caps text-label-caps py-6 px-12 rounded-full hover:bg-primary-container transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 uppercase tracking-widest text-sm" href="https://calendly.com/sfaizan997/15mins" target="_blank">
+                        Book a Discovery Call
+                    </a>
+<button class="w-full sm:w-auto inline-flex items-center justify-center bg-white text-primary border-2 border-primary font-label-caps text-label-caps py-6 px-12 rounded-full hover:bg-primary-fixed transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 uppercase tracking-widest text-sm">
+                        Connect on LinkedIn
+                    </button>
+</div>
+<a class="inline-block text-primary hover:text-primary-container transition-colors font-label-caps uppercase tracking-widest font-bold border-b-2 border-primary/30 hover:border-primary pb-1 text-sm" href="mailto:sfaizan997@gmail.com">
+                    sfaizan997@gmail.com
+                </a>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 bg-surface border-t border-outline-variant/30">
+<div class="max-w-container-max mx-auto px-gutter flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="font-display-lg text-2xl font-bold text-primary">FA.</div>
+<div class="flex gap-8 items-center">
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">LinkedIn</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="mailto:sfaizan997@gmail.com">Email</a>
+</div>
+</div>
+</footer>
+</body></html>
